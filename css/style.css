@@ -14,20 +14,19 @@ h1 {
 }
 
 .circular {
+  margin-top: 20px;
   width: 120px;
   height: 120px;
-  border-radius: 60px;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
+  border-radius: 60px;
   background: url(../images/patsy_round.jpg) no-repeat;
   }
 
 
-
 .col-xs-12{
-    height:150px;
+    height:300px;
     text-align: center;
-    border: 2px solid;
 }
 
 .col-xs-6{
@@ -62,12 +61,8 @@ h1 {
     border: 2px solid;
 }
 
-.footer{
-    background-color: grey;
-    height:100px;
-    color: black;
-    text-align: center;
-    border: 2px solid;
+a.soc-linkedin {
+  background-image: url(../images/linkedin.png no-repeat);
 }
 
 
