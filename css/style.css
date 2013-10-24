@@ -1,20 +1,24 @@
 body {
-  background: #95a5a6;
+  background: #ecf0f1;
 }
 
-img {
-    width:600px;
-    height: 400px;
+p {
+    text-align:justify;
+    text-justify:inter-word;
+    width: auto;
+    margin: 0 auto;
+    font-weight: bold;
 }
 
-h1 {
-  font-family: Georgia;
-  font-size: 20px;
-  text-align: center;
+#mail_btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .circular {
+  float: left;
   margin-top: 20px;
+  margin-left: 20px;
   width: 120px;
   height: 120px;
   -webkit-border-radius: 60px;
@@ -23,86 +27,24 @@ h1 {
   background: url(../images/patsy_round.jpg) no-repeat;
   }
 
-
-.col-xs-12{
-    height:300px;
-    text-align: center;
+#name_tag {
+  float: left;
 }
 
-.col-xs-6{
-    background-color: lightgreen;
-    height:100px;
-    color: black;
-    text-align: center;
-    border: 2px solid;
+.to_left{
+  float: left;
 }
 
-.col-xs-4{
-    background-color: yellow;
-    height:300px;
-    color: black;
-    text-align: center;
-    border: 2px solid;
+ul.list-inline {
+  display: inline-block;
 }
 
-.col-xs-8{
-    background-color: grey;
-    height:300px;
-    color: black;
-    text-align: center;
-    border: 2px solid;
+.bottom_buttons{
+  margin-top: 20px;
 }
 
-.col-sm-4{
-    background-color: pink;
-    height:100px;
-    color: black;
-    text-align: center;
-    border: 2px solid;
-}
-
-a.soc-linkedin {
-  background-image: url(../images/linkedin.png no-repeat);
+.ind_button {
+  margin-right: 20px;
 }
 
 
-/*  Retina media query.
-  Overrides styles for devices with a
-  device-pixel-ratio of 2+, such as iPhone 4.
------------------------------------------------    */
-
-@media
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-device-pixel-ratio: 2) {
-
-  .replace-2x {
-    font-size: 1px;
-  }
-
-
-
-            ul.soc-media-list li a {
-              background-size: 23px 84px;
-            }
-
-              a.soc-linkedin {
-                background-image: url(../_images/linkedin.png);
-              }
-
-              a.soc-github {
-                background-image: url(../_images/github_alt.png);
-              }
-
-              a.soc-twitter {
-                background-image: url(../_images/twitter.png);
-              }
-
-              a.soc-facebook {
-                background-image: url(../_images/Facebook.png);
-              }
-
-              a.soc-email {
-                background-image: url(../_images/gMail.png);
-              }
-
-}
