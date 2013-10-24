@@ -13,18 +13,13 @@ h1 {
   text-align: center;
 }
 
-#patsy {
-    width:150px;
-    height: 100px;
-}
-
 .circular {
   width: 120px;
   height: 120px;
   border-radius: 60px;
   -webkit-border-radius: 60px;
   -moz-border-radius: 60px;
-  background: url(patsy_round.jpg) no-repeat;
+  background: url(../images/patsy_round.jpg) no-repeat;
   }
 
 
@@ -76,43 +71,43 @@ h1 {
 }
 
 
-.flip {
-  -webkit-perspective: 800;
-   width:  800px;
-   height: 800px;
-    position: relative;
-    margin: 50px auto;
-}
-.flip .card.flipped {
-  -webkit-transform: rotatex(-180deg);
-}
-.flip .card {
-  width: 100%;
-  height: 100%;
-  -webkit-transform-style: preserve-3d;
-  -webkit-transition: 0.5s;
-}
-.flip .card .face {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  -webkit-backface-visibility: hidden ;
-  z-index: 2;
-    font-family: Georgia;
-    font-size: 3em;
-    text-align: center;
-    line-height:100px;
-}
-.flip .card .front {
-  position: absolute;
-  z-index: 1;
-    background: blue;
-    color: white;
-    cursor: pointer;
-}
-.flip .card .back {
-  -webkit-transform: rotatex(-180deg);
-    background: white;
-    color: black;
-    cursor: pointer;
+/*  Retina media query.
+  Overrides styles for devices with a
+  device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+
+  .replace-2x {
+    font-size: 1px;
+  }
+
+
+
+            ul.soc-media-list li a {
+              background-size: 23px 84px;
+            }
+
+              a.soc-linkedin {
+                background-image: url(../_images/linkedin.png);
+              }
+
+              a.soc-github {
+                background-image: url(../_images/github_alt.png);
+              }
+
+              a.soc-twitter {
+                background-image: url(../_images/twitter.png);
+              }
+
+              a.soc-facebook {
+                background-image: url(../_images/Facebook.png);
+              }
+
+              a.soc-email {
+                background-image: url(../_images/gMail.png);
+              }
+
 }
