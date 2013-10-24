@@ -10,12 +10,71 @@ img {
 h1 {
   font-family: Georgia;
   font-size: 20px;
+  text-align: center;
 }
 
 #patsy {
     width:150px;
     height: 100px;
 }
+
+.circular {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  background: url(patsy_round.jpg) no-repeat;
+  }
+
+
+
+.col-xs-12{
+    height:150px;
+    text-align: center;
+    border: 2px solid;
+}
+
+.col-xs-6{
+    background-color: lightgreen;
+    height:100px;
+    color: black;
+    text-align: center;
+    border: 2px solid;
+}
+
+.col-xs-4{
+    background-color: yellow;
+    height:300px;
+    color: black;
+    text-align: center;
+    border: 2px solid;
+}
+
+.col-xs-8{
+    background-color: grey;
+    height:300px;
+    color: black;
+    text-align: center;
+    border: 2px solid;
+}
+
+.col-sm-4{
+    background-color: pink;
+    height:100px;
+    color: black;
+    text-align: center;
+    border: 2px solid;
+}
+
+.footer{
+    background-color: grey;
+    height:100px;
+    color: black;
+    text-align: center;
+    border: 2px solid;
+}
+
 
 .flip {
   -webkit-perspective: 800;
