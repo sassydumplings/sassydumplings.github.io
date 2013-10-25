@@ -7,7 +7,6 @@ p {
     text-justify:inter-word;
     width: auto;
     margin: 0 auto;
-    font-weight: bold;
 }
 
 #mail_btn {
@@ -47,4 +46,7 @@ ul.list-inline {
   margin-right: 20px;
 }
 
+.pmp_box {
+height:400px;
+}
 
