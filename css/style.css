@@ -1,121 +1,82 @@
-/*
-THEME NAME:AutoFocus
-THEME URI:http://www.allancole.com/wordpress/themes/autofocus
-DESCRIPTION: Future Perfect hack of the AutoFocus theme.
-VERSION:0.1v-be
-AUTHOR:Allan Cole / Edits Jan Chipchase
-AUTHOR URI:http://www.allancole.com/wordpress
-TAGS:photoblogging, fixed-width, one-column, threaded-comments, white
-
-     This theme is released under GNU General Public License (GPL):
-     http://www.gnu.org/licenses/gpl.html
-
-     1.0.1: Adds IE6 support (still a work in progress but better than before).
-
-*/
-
-/* = tweet jquery specific */
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.container {
+  max-width: 960;
+  margin: 0 auto;
 }
 
-body {
+section.module:last-child {
+    margin-bottom: 0;
+}
+
+section.module h2 {
+   margin-bottom:40px;
+   font-size:30px;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300px;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.content {
+  padding: 40px 0;
+}
+
+section.module.content .container {
     margin: 0 auto;
-    line-height: 1.7em;
+    max-width: 600px;
 }
 
-.l-box {
-    padding: 1em;
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.circular {
-  width: 120px;
-  height: 120px;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  border-radius: 60px;
-  }
+section.module.parallax h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 32px rgba(0, 0, 0, 1),
+               0 0  8px rgba(0, 0, 0, 1);
 
-.header {
-    margin: 0 0;
 }
 
-    .header .pure-menu {
-        padding: 0.5em;
-    }
+section.module.parallax-1 {
+  background-color: grey;
+  background-image: url("../images/shasta.jpg")
 
-        .header .pure-menu li a:hover,
-        .header .pure-menu li a:focus {
-            background: none;
-            border: none;
-            color: #aaa;
-        }
-
-body .primary-button {
-    background: #02a6eb;
-    color: #fff;
 }
 
-#list{
-    list-style-type: none;
+
+section.module.parallax-2 {
+  background-color: salmon;
+  background-image: url("../images/backyard.jpg")
 }
 
-a{
-    text-decoration: none;
-    color: black;
+section.module.parallax-3 {
+  background-color: blue;
+  background-image: url("../images/sake.jpg")
 }
 
-.splash {
-    margin: 2em auto 0;
-    padding: 3em 0.5em;
-    background: #eee;
-}
-    .splash .splash-head {
-        font-size: 300%;
-        margin: 0em 0;
-        line-height: 1.2em;
-    }
-    .splash .splash-subhead {
-        color: #999;
-        font-weight: 300;
-        line-height: 1.4em;
-    }
-    .splash .primary-button {
-        font-size: 150%;
-    }
 
-
-.content .content-subhead {
-    color: #999;
-    padding-bottom: 0.3em;
-    text-transform: uppercase;
-    margin: 0;
-    border-bottom: 2px solid #eee;
-    display: inline-block;
+#social {
+    margin: 0 auto;
+    font-size: 3em;
+    float: none;
+    max-width: 600px;
 }
 
-.content .content-ribbon {
-    margin: 3em;
-    border-bottom: 1px solid #eee;
+#social li {
+  width: 20%;
 }
 
-.ribbon {
-    background: #eee;
-    text-align: center;
-    padding: 2em;
-    color: #999;
-}
-    .ribbon h2 {
-        display: inline;
-        font-weight: normal;
-    }
-
-.footer {
-    background: #111;
-    color: #666;
-    text-align: center;
-    padding: 1em;
-    font-size: 80%;
-}
