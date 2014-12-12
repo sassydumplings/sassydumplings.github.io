@@ -32,7 +32,7 @@ section.module.content .container {
 }
 
 section.module.parallax {
-  height: 600px;
+  height: 400px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -40,14 +40,15 @@ section.module.parallax {
 }
 
 section.module.parallax h1 {
-  color: white;
+  color: #ecf0f1;
   font-size: 48px;
   line-height: 600px;
   font-weight: normal;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 32px rgba(0, 0, 0, 1),
-               0 0  8px rgba(0, 0, 0, 1);
+  text-shadow: 0 0 32px rgba(0,0,0, 1),
+               0 0  16px rgba(0,0,0, 1),
+               0 0  8px rgba(0,0,0, 1);
 
 }
 
@@ -60,7 +61,7 @@ section.module.parallax-1 {
 
 section.module.parallax-2 {
   background-color: salmon;
-  background-image: url("../images/backyard.jpg")
+  background-image: url("../images/rubycode.png")
 }
 
 section.module.parallax-3 {
@@ -76,7 +77,16 @@ section.module.parallax-3 {
     max-width: 600px;
 }
 
-#social li {
-  width: 20%;
+
+#profile-pic {
+    height: 5em;
+}
+
+nav.navbar {
+    border-color: #bdc3c7;
+}
+
+nav.navbar-default,section.module {
+    background-color: #bdc3c7;
 }
 
