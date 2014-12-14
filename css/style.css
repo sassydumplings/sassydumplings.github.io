@@ -7,7 +7,7 @@ section.module:last-child {
     margin-bottom: 0;
 }
 
-section.module h2 {
+section.module {
    margin-bottom:40px;
    font-size:30px;
 }
@@ -66,6 +66,10 @@ section.module.parallax-2 {
 }
 
 section.module.parallax-3 {
+  background-image: url("../images/sass.jpg");
+}
+
+section.module.parallax-4 {
   background-image: url("../images/sake.jpg");
 }
 
@@ -89,11 +93,19 @@ nav.navbar {
     border-color:#D2D7D3;
 }
 
-nav.navbar-default,section.module {
+nav.navbar-default,section.module, body {
     background-color: #D2D7D3;
 }
 
-#last-container {
-    padding-bottom: 40px;
+#my_name{
+    color:#2C3E50;
+    text-shadow: 0 0  8px rgba(103,128,159, 1),
+                 0 0  4px rgba(103,128,159, .5);
+
 }
+
+body { padding-bottom: 70px;
+
+}
+
 
