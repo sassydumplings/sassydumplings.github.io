@@ -13,7 +13,7 @@ section.module {
 
 section.module p {
   font-size: 16px;
-  font-weight: 300px;
+  font-weight: 300;
 }
 
 section.module p:last-child {
@@ -35,6 +35,10 @@ section.module.parallax {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+
+li {
+  font-size: 16px;
 }
 
 section.module.parallax h1 {
@@ -102,8 +106,13 @@ nav.navbar-default,section.module, body {
 
 }
 
-body { padding-bottom: 70px;
+body {
+  padding-bottom: 40px;
+  background-color:#D2D7D3 ;
+}
 
+.my-projects {
+  padding-bottom: 10px;
 }
 
 
