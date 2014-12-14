@@ -52,23 +52,22 @@ section.module.parallax h1 {
 
 }
 
-section.module.parallax-1 {
-  background-color: grey;
-  background-image: url("../images/shasta.jpg")
-
+section.module.parallax {
+  background-color: #2980b9;
+  background-size: cover;
 }
 
+section.module.parallax-1 {
+  background-image: url("../images/lake3.jpg");
+}
 
 section.module.parallax-2 {
-  background-color: salmon;
-  background-image: url("../images/rubycode.png")
+  background-image: url("../images/rubycode.png");
 }
 
 section.module.parallax-3 {
-  background-color: blue;
-  background-image: url("../images/sake.jpg")
+  background-image: url("../images/sake.jpg");
 }
-
 
 #social {
     margin: 0 auto;
@@ -82,11 +81,19 @@ section.module.parallax-3 {
     height: 5em;
 }
 
+#my_name {
+  color: #6C7A89;
+}
+
 nav.navbar {
-    border-color: #bdc3c7;
+    border-color:#D2D7D3;
 }
 
 nav.navbar-default,section.module {
-    background-color: #bdc3c7;
+    background-color: #D2D7D3;
+}
+
+#last-container {
+    padding-bottom: 40px;
 }
 
