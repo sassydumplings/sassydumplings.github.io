@@ -26,7 +26,7 @@ section.module.content {
 
 section.module.content .container {
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 section.module.parallax {
@@ -109,10 +109,6 @@ nav.navbar-default,section.module, body {
 body {
   padding-bottom: 40px;
   background-color:#D2D7D3 ;
-}
-
-.my-projects {
-  padding-bottom: 10px;
 }
 
 
