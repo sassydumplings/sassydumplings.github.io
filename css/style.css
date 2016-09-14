@@ -21,7 +21,7 @@ section.module p:last-child {
 }
 
 section.module.content {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 section.module.content .container {
@@ -60,7 +60,7 @@ section.module.parallax {
 }
 
 section.module.parallax-1 {
-  background-image: url("../images/lake3.jpg");
+  background-image: url("../images/lake4.jpg");
 }
 
 section.module.parallax-2 {
@@ -68,11 +68,11 @@ section.module.parallax-2 {
 }
 
 section.module.parallax-3 {
-  background-image: url("../images/sass.jpg");
+  background-image: url("../images/snippet.png");
 }
 
 section.module.parallax-4 {
-  background-image: url("../images/sake.jpg");
+  background-image: url("../images/sugar.jpg");
 }
 
 #social {
